@@ -1,0 +1,36 @@
+Oct 19 06:58:12 web01 sshd[3990]: Accepted publickey for shalvin from 10.0.0.5 port 50512 ssh2: ED25519 SHA256:abc123
+Oct 19 06:58:12 web01 sshd[3990]: pam_unix(sshd:session): session opened for user shalvin(uid=1000) by (uid=0)
+Oct 19 07:12:10 web01 sshd[4200]: Failed password for root from 203.0.113.45 port 40000 ssh2
+Oct 19 07:12:27 web01 sshd[4201]: Invalid user admin from 203.0.113.45 port 40001
+Oct 19 07:12:27 web01 sshd[4201]: Failed password for invalid user admin from 203.0.113.45 port 40001 ssh2
+Oct 19 07:12:44 web01 sshd[4202]: Failed password for ubuntu from 203.0.113.45 port 40002 ssh2
+Oct 19 07:13:01 web01 sshd[4203]: Invalid user test from 203.0.113.45 port 40003
+Oct 19 07:13:01 web01 sshd[4203]: Failed password for invalid user test from 203.0.113.45 port 40003 ssh2
+Oct 19 07:13:18 web01 sshd[4204]: Invalid user oracle from 203.0.113.45 port 40004
+Oct 19 07:13:18 web01 sshd[4204]: Failed password for invalid user oracle from 203.0.113.45 port 40004 ssh2
+Oct 19 07:13:35 web01 sshd[4205]: Invalid user postgres from 203.0.113.45 port 40005
+Oct 19 07:13:35 web01 sshd[4205]: Failed password for invalid user postgres from 203.0.113.45 port 40005 ssh2
+Oct 19 07:13:52 web01 sshd[4206]: Failed password for root from 203.0.113.45 port 40006 ssh2
+Oct 19 07:14:09 web01 sshd[4207]: Invalid user admin from 203.0.113.45 port 40007
+Oct 19 07:14:09 web01 sshd[4207]: Failed password for invalid user admin from 203.0.113.45 port 40007 ssh2
+Oct 19 07:14:26 web01 sshd[4208]: Invalid user git from 203.0.113.45 port 40008
+Oct 19 07:14:26 web01 sshd[4208]: Failed password for invalid user git from 203.0.113.45 port 40008 ssh2
+Oct 19 07:14:43 web01 sshd[4209]: Failed password for root from 203.0.113.45 port 40009 ssh2
+Oct 19 07:15:00 web01 sshd[4210]: Failed password for deploy from 203.0.113.45 port 40010 ssh2
+Oct 19 07:15:17 web01 sshd[4211]: Failed password for root from 203.0.113.45 port 40011 ssh2
+Oct 19 07:16:02 web01 sshd[4211]: Disconnecting authenticating user root 203.0.113.45 port 40011: Too many authentication failures [preauth]
+Oct 19 08:01:44 web01 sshd[4300]: Failed password for invalid user support from 198.51.100.23 port 51000 ssh2
+Oct 19 09:15:03 web01 sshd[4301]: Failed password for invalid user support from 198.51.100.23 port 51001 ssh2
+Oct 19 11:42:57 web01 sshd[4302]: Failed password for invalid user support from 198.51.100.23 port 51002 ssh2
+Oct 19 13:20:05 web01 sshd[4400]: Failed password for deploy from 192.0.2.10 port 60100 ssh2
+Oct 19 13:20:14 web01 sshd[4401]: Failed password for deploy from 192.0.2.10 port 60101 ssh2
+Oct 19 13:20:23 web01 sshd[4402]: Failed password for deploy from 192.0.2.10 port 60102 ssh2
+Oct 19 13:20:32 web01 sshd[4403]: Failed password for deploy from 192.0.2.10 port 60103 ssh2
+Oct 19 13:20:41 web01 sshd[4404]: Failed password for deploy from 192.0.2.10 port 60104 ssh2
+Oct 19 13:20:50 web01 sshd[4405]: Failed password for deploy from 192.0.2.10 port 60105 ssh2
+Oct 19 13:21:10 web01 sshd[4407]: Accepted password for deploy from 192.0.2.10 port 60107 ssh2
+Oct 19 13:21:10 web01 sshd[4407]: pam_unix(sshd:session): session opened for user deploy(uid=1001) by (uid=0)
+Oct 19 15:02:31 web01 sshd[4500]: Failed password for shalvin from 10.0.0.5 port 50601 ssh2
+Oct 19 15:02:40 web01 sshd[4501]: Accepted password for shalvin from 10.0.0.5 port 50602 ssh2
+Oct 19 15:10:00 web01 CRON[4600]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 19 15:30:00 web01 sudo:  shalvin : TTY=pts/0 ; PWD=/home/shalvin ; USER=root ; COMMAND=/usr/bin/apt update
